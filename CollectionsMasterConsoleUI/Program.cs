@@ -163,8 +163,13 @@ namespace CollectionsMasterConsoleUI
             //TODO: Sort the list then print results
             Console.WriteLine("Sorted Evens!!");
 
-            
+
+            OddKiller(numbers);
             numbers.Sort();
+            
+                    
+                  
+
 
 
             Console.WriteLine("------------------");
@@ -172,7 +177,7 @@ namespace CollectionsMasterConsoleUI
             //TODO: Convert the list to an array and store that into a variable
 
 
-            numbers.ToArray();
+            int[] newArray = numbers.ToArray();
 
 
             //TODO: Clear the list
